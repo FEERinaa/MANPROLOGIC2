@@ -1,0 +1,10 @@
+streamlit
+pandas
+plotly
+matplotlib
+wordcloud
+requests
+transformers
+torch
+pytz
+openpyxl
