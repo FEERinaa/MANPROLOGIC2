@@ -129,7 +129,7 @@ with tab2:
             # Loop analisis sentimen
             total = len(df)
             for i, text in enumerate(df['Review']):
-                s, sc = analyzer.predict(text)
+                s, sc, meta = analyzer.predict(text)
                 sentiments.append(s)
                 scores.append(sc)
                 bar.progress((i + 1) / total)
